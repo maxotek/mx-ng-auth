@@ -32,6 +32,10 @@
             service.restoreState();
             return service.currentUser;
         };
+        service.getAccessToken = function() {
+            service.restoreState();
+            return service.accessToken;
+        };
         return service;
     }
 
