@@ -7,6 +7,7 @@
     "private": false,
     "dependencies": {
         "angular": "v1.6.8",
-        "ngstorage": "0.3.11"
+        "ngstorage": "0.3.11",
+        "jwt-decode": "v2.2.0"
     }
 }

@@ -9,7 +9,7 @@
         var service = {
             login: function(account, success, failure) {
                 var successWrapper = function(response) {
-                    mxngUserService.setCurrentUser(response.data);
+                    mxngUserService.setJwt(response.data);
                     $rootScope.onLogin();
                     success(response);
                 };
@@ -39,7 +39,7 @@
             },
             logout: function() {
                 mxngUserService.currentUser = null;
-                mxngUserService.setCurrentUser(mxngUserService.currentUser);
+                mxngUserService.setJwt(null);
                 $rootScope.onLogout();
             }
         };
