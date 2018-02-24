@@ -4,5 +4,11 @@
     "version": "1.0.0",
     "description": "AngularJS module for using token based authentication on a web API",
     "repository": "https://github.com/maxotek/mx-ng-auth",
-    "license": "MIT"
+    "license": "MIT",
+    "devDependencies": {
+        "bower": "^1.8.0"
+    },
+    "scripts": {
+        "postinstall": "bower install"
+    }
 }

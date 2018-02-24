@@ -4,5 +4,9 @@
     "version": "1.0.0",
     "homepage": "https://github.com/maxotek/mx-ng-auth",
     "license": "MIT",
-    "private": false
+    "private": false,
+    "dependencies": {
+        "angular": "v1.6.8",
+        "ngstorage": "0.3.11"
+    }
 }
